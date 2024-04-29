@@ -8,3 +8,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>,
 )
+ReactDOM.render(
+  <SmoothScroll />,
+  document.getElementById('content')
+)
